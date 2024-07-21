@@ -25,7 +25,7 @@ For Linux and macOS, **SDL2** must also be installed.
 
 #### <ins>Notes / limitations</ins> ####
 
-**macOS**: This branch does not support macOS
+**macOS**: This fork does not support macOS
 
 **SteamOS**: See [SteamOS.md](SteamOS.md)
 
