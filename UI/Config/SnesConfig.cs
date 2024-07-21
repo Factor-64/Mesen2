@@ -110,6 +110,7 @@ namespace Mesen.Config
 
 				EnableRandomPowerOnState = this.EnableRandomPowerOnState,
 				EnableStrictBoardMappings = this.EnableStrictBoardMappings,
+				AllowInvalidInput = this.AllowInvalidInput,
 				PpuExtraScanlinesBeforeNmi = this.PpuExtraScanlinesBeforeNmi,
 				PpuExtraScanlinesAfterNmi = this.PpuExtraScanlinesAfterNmi,
 				GsuClockSpeed = this.GsuClockSpeed,
@@ -201,6 +202,7 @@ namespace Mesen.Config
 
 		[MarshalAs(UnmanagedType.I1)] public bool EnableRandomPowerOnState;
 		[MarshalAs(UnmanagedType.I1)] public bool EnableStrictBoardMappings;
+		[MarshalAs(UnmanagedType.I1)] public bool AllowInvalidInput;
 		public RamState RamPowerOnState;
 		public Int32 SpcClockSpeedAdjustment;
 
