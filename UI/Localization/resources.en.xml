@@ -222,6 +222,7 @@
 			<Control ID="lblRamPowerOnState">Default power on state for RAM: </Control>
 			<Control ID="chkRandomPowerOnState">Randomize power-on state</Control>
 			<Control ID="chkStrictBoardMappings">Use strict board mappings (breaks some romhacks)</Control>
+			<Control ID="chkAllowInvalidInput">Allow invalid input (e.g Down + Up or Left + Right at the same time)</Control>
 			<Control ID="lblSpcClockSpeedAdjustment">SPC clock speed adjustment: </Control>
 			<Control ID="lblNotRecommended">(not recommended)</Control>
 			<Control ID="tpgInput">Input</Control>
