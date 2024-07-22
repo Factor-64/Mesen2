@@ -129,7 +129,8 @@ jobs:
           name: Mesen (Linux x64 - AppImage)
           path: Mesen.AppImage
 
-macos:
+
+  macos:
     strategy:
       matrix:
         compiler: [clang]
@@ -195,4 +196,3 @@ macos:
         with:
           name: Mesen (macOS - ${{ matrix.platform.os }})
           path: bin/osx-${{ matrix.platform.arch }}/Release/Mesen.app.zip
-          
