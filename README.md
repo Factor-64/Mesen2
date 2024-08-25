@@ -1,6 +1,6 @@
-# Mesen
+# Mesen Fork
 
-Mesen is a multi-system emulator (NES, SNES, Game Boy, Game Boy Advance, PC Engine, Master System/Game Gear) for Windows, Linux, and macOS built in C++ and C#.  
+Mesen is a multi-system emulator (NES, SNES, Game Boy, Game Boy Advance, PC Engine, Master System/Game Gear) for Windows, Linux and macOS built in C++ and C#.  
 
 ## Development Builds
 
@@ -8,17 +8,10 @@ Mesen is a multi-system emulator (NES, SNES, Game Boy, Game Boy Advance, PC Engi
 
 #### <ins>Native builds</ins> ####
 
-These builds don't require .NET to be installed and offer improved start-up times.  
+These builds don't require .NET to be installed and offer improved start up times.  
 
-<<<<<<< HEAD
 * [Windows 10 / 11](https://nightly.link/Factor-64/Mesen2/workflows/build/master/Mesen%20%28Windows%20-%20net8.0%20-%20AoT%29.zip)
 * [Linux](https://nightly.link/Factor-64/Mesen2/workflows/build/master/Mesen%20%28Linux%20-%20ubuntu-20.04%20-%20clang_aot%29.zip)  (requires **SDL2**)
-=======
-* [Windows 10 / 11](https://nightly.link/SourMesen/Mesen2/workflows/build/master/Mesen%20%28Windows%20-%20net8.0%20-%20AoT%29.zip)
-* [Linux](https://nightly.link/SourMesen/Mesen2/workflows/build/master/Mesen%20%28Linux%20-%20ubuntu-20.04%20-%20clang_aot%29.zip)  (requires **SDL2**)
-* [macOS - Intel](https://nightly.link/SourMesen/Mesen2/workflows/build/master/Mesen%20%28macOS%20-%20macos-12%20-%20clang_aot%29.zip)  (requires **SDL2**)
-* [macOS - Apple Silicon](https://nightly.link/SourMesen/Mesen2/workflows/build/master/Mesen%20%28macOS%20-%20macos-14%20-%20clang_aot%29.zip)  (requires **SDL2**)
->>>>>>> 586b0e7501d92d92fcd46f9d1faa70fec26cd608
 
 #### <ins>.NET builds</ins> ####
 
@@ -27,6 +20,7 @@ For Linux and macOS, **SDL2** must also be installed.
 
 * [Windows 10 / 11](https://nightly.link/Factor-64/Mesen2/workflows/build/master/Mesen%20%28Windows%20-%20net8.0%29.zip)  
 * [Windows 7 / 8 (.NET 6)](https://nightly.link/Factor-64/Mesen2/workflows/build/master/Mesen%20%28Windows%20-%20net6.0%29.zip)  
+* [macOS - Intel](https://nightly.link/Factor-64/Mesen2/workflows/build/master/Mesen%20%28macOS%20-%20macos-12%29.zip)  
 * [Linux](https://nightly.link/Factor-64/Mesen2/workflows/build/master/Mesen%20%28Linux%20-%20ubuntu-20.04%20-%20clang%29.zip)  
 * [Linux - AppImage](https://nightly.link/Factor-64/Mesen2/workflows/build/master/Mesen%20(Linux%20x64%20-%20AppImage).zip)
 
