@@ -262,6 +262,9 @@
     <Compile Update="Debugger\Windows\CommentEditWindow.axaml.cs">
       <DependentUpon>CommentEditWindow.axaml</DependentUpon>
     </Compile>
+    <Compile Update="Views\VideoConfigOverrideView.axaml.cs">
+      <DependentUpon>VideoConfigOverrideView.axaml</DependentUpon>
+    </Compile>
     <Compile Update="Views\FontOptionsView.axaml.cs">
       <DependentUpon>FontOptionsView.axaml</DependentUpon>
     </Compile>
@@ -378,6 +381,12 @@
     </Compile>
     <Compile Update="Views\PceAvenuePad6View.axaml.cs">
       <DependentUpon>PceAvenuePad6View.axaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\OtherConsolesConfigView.axaml.cs">
+      <DependentUpon>OtherConsolesConfigView.axaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\CvConfigView.axaml.cs">
+      <DependentUpon>CvConfigView.axaml</DependentUpon>
     </Compile>
     <Compile Update="Views\SmsInputConfigView.axaml.cs">
       <DependentUpon>SmsInputConfigView.axaml</DependentUpon>
