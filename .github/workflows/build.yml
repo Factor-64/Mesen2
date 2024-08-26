@@ -128,16 +128,3 @@ jobs:
         with:
           name: Mesen (Linux x64 - AppImage)
           path: Mesen.AppImage
-<<<<<<< HEAD
-=======
-
-      - name: Zip Mesen.app
-        run: |
-          ditto -c -k --sequesterRsrc --keepParent bin/osx-${{ matrix.platform.arch }}/Release/osx-${{ matrix.platform.arch }}/publish/Mesen.app bin/osx-${{ matrix.platform.arch }}/Release/Mesen.app.zip
-
-      - name: Upload Mesen
-        uses: actions/upload-artifact@v4
-        with:
-          name: Mesen (macOS - ${{ matrix.platform.os }} - ${{ matrix.compiler }})
-          path: bin/osx-${{ matrix.platform.arch }}/Release/Mesen.app.zip
->>>>>>> 586b0e7501d92d92fcd46f9d1faa70fec26cd608
